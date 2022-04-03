@@ -1,0 +1,5 @@
+2022-04-03 16:08:26 INFO  ebanking:73 - URL is opened
+2022-04-03 16:08:27 INFO  ebanking:23 - Entered username
+2022-04-03 16:08:27 INFO  ebanking:25 - Entered password
+2022-04-03 16:08:32 INFO  ebanking:27 - clicked on loginbutton
+2022-04-03 16:08:32 INFO  ebanking:38 - Login test Passed

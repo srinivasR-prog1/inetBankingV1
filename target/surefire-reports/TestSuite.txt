@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.536 sec <<< FAILURE! - in TestSuite
+addCustomerTest(com.inetBankingV1.testCases.TC_AddCustomerTest_001)  Time elapsed: 10.858 sec  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+Dismissed user prompt dialog: please fill all fields: 
+Build info: version: '4.0.0-beta-1', revision: '9c03156c2b'
+System info: host: 'SRINIVAS', ip: '172.20.112.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [214d9993-cf28-43ea-9b37-40ba40013795, getPageSource {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:debuggerAddress: localhost:9222, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 12724, moz:profile: C:\Users\tsrin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 214d9993-cf28-43ea-9b37-40ba40013795
+	at com.inetBankingV1.testCases.TC_AddCustomerTest_001.addCustomerTest(TC_AddCustomerTest_001.java:53)
+
